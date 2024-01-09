@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+    <script>
+        const body = html.children[1]
+        console.log(`Elemento padre ${body}`)
+        const ul = body.children[0]
+        console.log(`Lista oggetti ${ul}`)
+        const secondIl = ul.children[1]
+        console.log(`Secondo elemento lista ${secondIl}`)
+        secondIl.previousElementSibling
+        console.log(`Primo elemento lista ${secondIl}`)
+        secondIl.nextElementSibling
+        console.log(`Terzo elemento lista ${secondIl}`)
+    </script>
+</body>
+
+</html>
