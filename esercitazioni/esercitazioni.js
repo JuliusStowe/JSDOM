@@ -35,3 +35,9 @@ console.log(inputText.value)
 const select=document.querySelector("#select")
 const valoreSelezionato=select.value
 console.log(valoreSelezionato)
+
+//esercizio 8 Ottenere il valore di un elemento checkbox.
+
+const checkbox=document.querySelector(".checkbox")
+const ischecked=checkbox.checked=true
+console.log(ischecked)
